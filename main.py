@@ -40,6 +40,11 @@ async def serve_ui():
 async def favicon():
     return Response(status_code=204)
 
+# ping route for Render
+@app.get("/ping")
+async def ping():
+    return {"status": "OK", "message": "Tattva Shanti backend is alive!"}
+
 class QueryRequest(BaseModel):
     question: str
     session_id: str = None
