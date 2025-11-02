@@ -1,5 +1,14 @@
 # TattvaShanti Chatbot (AI-Powered Conversational Assistant)
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Flask](https://img.shields.io/badge/Flask-Framework-orange)
+![LangChain](https://img.shields.io/badge/LangChain-LLM%20Pipeline-purple)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-blue)
+![Pinecone](https://img.shields.io/badge/Pinecone-Vector%20DB-teal)
+![n8n](https://img.shields.io/badge/n8n-Automation-red)
+![Render](https://img.shields.io/badge/Render-Deployment-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 An AI-driven **Conversational RAG Chatbot** designed and deployed for [Tattva Shanti](https://tattvashanti.com/). an organisation offering a range of wellness and business support services, while this chatbot is trained specifically on their **Life Coaching**, **Professional/Startup Coaching** and **EIR (Entrepreneur-in-Residence)** tracks.
 
 This project combines **FastAPI**, **LangChain**, **OpenAI**, **Pinecone**, and **n8n automation** to deliver an intelligent, context-aware, and production-ready chatbot embedded directly into the WordPress website.
