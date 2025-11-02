@@ -9,9 +9,20 @@
 ![Render](https://img.shields.io/badge/Render-Deployment-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-An AI-driven **Conversational RAG Chatbot** designed and deployed for [Tattva Shanti](https://tattvashanti.com/). an organisation offering a range of wellness and business support services, while this chatbot is trained specifically on their **Life Coaching**, **Professional/Startup Coaching** and **EIR (Entrepreneur-in-Residence)** tracks.
+---
 
-This project combines **FastAPI**, **LangChain**, **OpenAI**, **Pinecone**, and **n8n automation** to deliver an intelligent, context-aware, and production-ready chatbot embedded directly into the WordPress website.
+An AI-driven **Conversational RAG Chatbot** designed and deployed for [Tattva Shanti](https://tattvashanti.com/),  
+an organisation offering a range of wellness and business support services.  
+The chatbot is trained specifically on their **Life Coaching**, **Professional/Startup Coaching**, and **EIR (Entrepreneur-in-Residence)** programs,  
+delivering human-like, context-aware assistance directly on their WordPress website.
+
+<p align="center">
+  <img src="https://github.com/shahil5z/TattvaShanti-Chatbot/blob/2870bc9426284782af70d30c90c9b798c2fc0d88/frontend/video%20demo.gif?raw=true" 
+       alt="TattvaShanti Chatbot Demo" 
+       width="420" 
+       height="360" 
+       style="display:block; margin:auto;">
+</p>
 
 ---
 
@@ -26,7 +37,8 @@ The **Tattva Shanti Chatbot** acts as a virtual assistant that:
 - Integrates AI retrieval from curated and embedded content.
 - Automates data logging to Google Sheets via n8n workflows.
 
-From data to deployment: this system uses RAG techniques, maintains user session context, and integrates directly into the WordPress environment.
+From data to deployment, it combines **FastAPI**, **LangChain**, **OpenAI**, **Pinecone**, and **n8n**  
+to maintain session context, perform real-time retrieval, and provide reliable automation through a secure backend.
 
 ---
 
@@ -80,3 +92,13 @@ From data to deployment: this system uses RAG techniques, maintains user session
 | **Environment Management** | Python-dotenv, UUID, asyncio |
 
 ---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Author
+**Shohrab Haque Shahil**  
+AI Engineer | Developed for [Tattva Shanti](https://tattvashanti.com/)
